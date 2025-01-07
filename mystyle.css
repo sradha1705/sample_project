@@ -1,0 +1,48 @@
+.parent{
+    height: 400px;
+ width: 700px;
+    border:2px solid red;
+    margin-top: inherit;
+    margin-left: inherit;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: blue;
+}
+.ch1{
+    height: 375px;
+    border:2px solid red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right:10px;
+    background-color: chartreuse;
+
+
+}
+.ch2{
+     height:345px;
+     width:345px;
+    border:2px solid red;
+    margin:10px;
+    margin-right: 500px;
+    background-color:violet;
+   
+}
+.ch3{
+    height: 320px;
+    width:320px;
+    border:2px solid red;
+    margin:10px;
+    background-color: darkorange;
+
+}
+.ch4{
+              
+    height:290px;
+    width:290px;
+    border:2px solid red;
+    margin:10px;
+    background-color: aquamarine;
+
+
+}
