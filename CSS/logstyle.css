@@ -1,0 +1,131 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #090909;
+}
+
+/* Container for the input field and label */
+.container {
+    position: relative;
+    width: 300px;
+  
+}
+.class1{
+    padding: 15px;
+}
+
+/* Input Field */
+.input1 {
+    width: 100%;
+    padding: 10px 8px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    background: none;
+    transition: border-color 0.3s ease;
+}
+.input2 {
+    width: 100%;
+    padding: 12px 8px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    background: none;
+    transition: border-color 0.3s ease;
+}
+
+
+.input3 {
+    width: 100%;
+    padding: 12px 8px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    background: none;
+    transition: border-color 0.3s ease;
+}
+
+/* Label */
+.label1{
+    position: absolute;
+    top: 14%;
+    left: 20 px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #999;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.label2{
+    position: absolute;
+    top: 9%;
+    left: 20px;
+    transform: translateY(400%); 
+    font-size: 16px;
+    color: #999;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.label3{
+    position: absolute;
+    top: 7%;
+    left: 18px;
+    transform: translateY(850%);
+    font-size: 16px;
+    color: #999;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+/* Focus and Input Styles */
+input:focus {
+    border-color: #007BFF;
+}
+
+.input1:focus + .label1,
+.input1:valid + .label1 {
+    top: -8px;
+    left: 10px;
+    font-size: 12px;
+    color: #007BFF;
+    background: #f9f9f9;
+    padding: 0 4px;
+} 
+
+
+.input2:focus + .label2,
+.input2:valid + .label2 {
+    top: -8px;
+    left: 8px;
+    font-size: 12px;
+    color: #007BFF;
+    background: #f9f9f9;
+    padding: 0 8px;
+} 
+
+
+.input3:focus + .label3,
+.input3:valid + .label3 {
+    top: -8px;
+    left: 8px;
+    font-size: 12px;
+    color: #007BFF;
+    background: #f9f9f9;
+    padding: 0 8px;
+} 
+button{
+    height: 60px;
+    width: 40px;
+    background-color: blue;
+
+}

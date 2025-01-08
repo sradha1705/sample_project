@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding: 0;
+    }
+    @media screen and (min-device-width: 769px){
+        
+    
+    .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+    grid-template-areas:" header header header header "
+                         "sec1 sec2 sec3 sec4"  
+                         "sec1 sec5 sec6 sec6"
+                         "footer footer footer footer  "
+
+    }
+
+    header{
+        grid-area:header;
+        border: 1px solid red;
+        background-color: rgb(17, 18, 17);
+        color: aliceblue;
+        height:10vh ;
+    }
+    .sec1{
+        grid-area:sec1 ;
+        border: 1px solid red;
+        background-color: goldenrod;
+        color: aliceblue;
+        height:80vh ;
+        /* width:40vh; */
+    }
+    .sec2{
+        grid-area:sec2 ;
+        border: 1px solid red;
+        background-color: darkblue;
+        color: aliceblue;
+        height:40vh ;
+        /* width:40vh; */
+    }
+    .sec3{
+        grid-area:sec3 ;
+        border: 1px solid red;
+        background-color: purple;
+        color: aliceblue;
+        height:40vh ;
+        /* width:40vh; */
+    }
+    .sec4{
+        grid-area:sec4 ;
+        border: 1px solid red;
+        background-color: burlywood;
+        color: aliceblue;
+        height:40vh ;
+         /* width:40vh; */
+    }
+    .sec5{
+        grid-area:sec5 ;
+        border: 1px solid red;
+        background-color:chocolate;
+        color: aliceblue;
+        height:40vh ;
+        /* width:60vh; */
+
+    }
+    .sec6{
+        grid-area:sec6 ;
+        border: 1px solid red;
+        background-color:cyan;
+        color: aliceblue;
+        height:40vh ;
+        /* width:60vh; */
+    }
+    footer{
+        grid-area:footer;
+        border: 1px solid red;
+        background-color: rgb(6, 6, 6);
+        color: aliceblue;
+        height:10vh ;
+    }
+}    
+@media screen and (min-device-width: 481px) and (max-device-width:768px){
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-template-areas:" header header  "
+                         "sec1 sec2 "
+                         "sec3 sec4"
+                         " sec5 sec6 "
+                         "footer  footer   "
+
+    }
+    header{
+        grid-area:header;
+        border: 1px solid red;
+        background-color: rgb(17, 18, 17);
+        color: aliceblue;
+        height:10vh ;
+    }
+    .sec1{
+        grid-area:sec1 ;
+        border: 1px solid red;
+        background-color: goldenrod;
+        color: aliceblue;
+        height:13.3vh ;
+        /* width:40vh; */
+    }
+    .sec2{
+        grid-area:sec2 ;
+        border: 1px solid red;
+        background-color: darkblue;
+        color: aliceblue;
+        height:13.3vh ;
+        /* width:40vh; */
+    }
+    .sec3{
+        grid-area:sec3 ;
+        border: 1px solid red;
+        background-color: purple;
+        color: aliceblue;
+        height:13.3vh ;
+        /* width:40vh; */
+    }
+    .sec4{
+        grid-area:sec4 ;
+        border: 1px solid red;
+        background-color: burlywood;
+        color: aliceblue;
+        height:13.3vh ;
+         /* width:40vh; */
+    }
+    .sec5{
+        grid-area:sec5 ;
+        border: 1px solid red;
+        background-color:chocolate;
+        color: aliceblue;
+        height:13.3vh ;
+        /* width:60vh; */
+
+    }
+    .sec6{
+        grid-area:sec6 ;
+        border: 1px solid red;
+        background-color:cyan;
+        color: aliceblue;
+        height:13.3vh ;
+        /* width:60vh; */
+    }
+    footer{
+        grid-area:footer;
+        border: 1px solid red;
+        background-color: rgb(6, 6, 6);
+        color: aliceblue;
+        height:13.3vh ;
+    }
+}
+@media screen and (max-device-width: 481px){
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-template-areas:" header  "
+                         "sec1  "
+                         "sec2"
+                         "sec3"
+                         " sec4"
+                         " sec5  "
+                         "sec6"
+                         "footer    "
+    }
+    header{
+        grid-area:header;
+        border: 1px solid red;
+        background-color: rgb(17, 18, 17);
+        color: aliceblue;
+        height:10vh ;
+    }
+    .sec1{
+        grid-area:sec1 ;
+        border: 1px solid red;
+        background-color: goldenrod;
+        color: aliceblue;
+        height:13.3vh ;
+        /* width:40vh; */
+    }
+    .sec2{
+        grid-area:sec2 ;
+        border: 1px solid red;
+        background-color: darkblue;
+        color: aliceblue;
+        height:13.3vh ;
+        /* width:40vh; */
+    }
+    .sec3{
+        grid-area:sec3 ;
+        border: 1px solid red;
+        background-color: purple;
+        color: aliceblue;
+        height:13.3vh ;
+        /* width:40vh; */
+    }
+    .sec4{
+        grid-area:sec4 ;
+        border: 1px solid red;
+        background-color: burlywood;
+        color: aliceblue;
+        height:13.3vh ;
+         /* width:40vh; */
+    }
+    .sec5{
+        grid-area:sec5 ;
+        border: 1px solid red;
+        background-color:chocolate;
+        color: aliceblue;
+        height:13.3vh ;
+        /* width:60vh; */
+
+    }
+    .sec6{
+        grid-area:sec6 ;
+        border: 1px solid red;
+        background-color:cyan;
+        color: aliceblue;
+        height:13.3vh ;
+        /* width:60vh; */
+    }
+    footer{
+        grid-area:footer;
+        border: 1px solid red;
+        background-color: rgb(6, 6, 6);
+        color: aliceblue;
+        height:13.3vh ;
+    }
+}
+
+</style>
+<body>
+    <div class="container">
+        <header>Header </header>
+            <section class="sec1"></section>
+            <section class="sec2"></section>
+            <section class="sec3"></section>
+            <section class="sec4"></section>
+            <section class="sec5"></section>
+            <section class="sec6"></section>
+            <footer>Footer</footer>
+       
+    </div>
+</body>
+</html>

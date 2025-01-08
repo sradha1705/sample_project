@@ -1,0 +1,164 @@
+/* .container{
+    height: 100px;
+    width:100px;
+    background-color: blue;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 300px;
+} */
+/* 
+.div1{
+    border:5px solid red;
+    width:max-content;
+   
+} */
+
+/* .box1{
+    height: 100px;
+    width:100px;
+    border-radius: 100%;
+    background-color: aqua;
+    position: relative;
+    left:200px;
+}
+.box{
+    height: 400px;
+    width:300px;
+    border-radius:100px ;
+    background-color: red;
+    position: absolute;
+    
+}
+.box3{
+    height: 100px;
+    width:100px;
+    border-radius: 100%;
+    background-color: aqua;
+    position:relative;
+    top:200px;
+}
+.box2{
+  text-align: center;
+} */
+/* ---------------------------------------------------------------------------------------------------------- */
+/* amazon task*/
+img{
+    height:50px;
+    width:40px;
+}
+
+
+.nav1{
+    background-color: rgb(13, 14, 14);
+    color: rgb(242, 236, 237);
+    display: flex;
+    font-family: sans-serif;
+    justify-content: space-between;
+}
+.select{
+    height:55px;
+    width:60px;
+   
+}
+.d{
+    font-size: 10px;
+}
+#i{
+    background-color: goldenrod;
+    color: black;
+    height: 40px;
+    padding-top:15px;
+}
+.input{
+    height:50px;
+    width: 500px;
+}
+.box1{
+    gap: 30px;
+    display: flex;
+    list-style: none;
+    font-family: sans-serif;
+}
+h1{
+    font-family: sans-serif;
+}
+.h{
+    font-size: small;
+}
+.nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.box2{
+
+    gap: 10px;
+    display: flex;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: small;
+} 
+
+a:hover{
+  border:1px solid white;
+    text-decoration: none;
+    height: 30px;
+    border-radius: 3px;
+}
+a{
+text-decoration: none;
+color: white;
+}
+/* -------------------------------------------------------------------------------------------------------------- */
+
+/* 
+*{
+    background-color:gold;
+ 
+    margin: 0px;
+   
+}
+.container{
+    display:flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    position:relative; 
+  
+}
+.box{
+    
+    background-color: aliceblue;
+    width:200px;
+    height: 250px;
+    border: 3px solid green;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    position:relative; 
+    padding: 30px;
+   
+}
+.h{
+    border: 5px solid green;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    display: flex;
+    color:green
+}
+.head{
+    padding-left: 500px;
+    padding-right: 500px;
+}
+p{
+    display: flex;
+    background-color: aliceblue;
+    color:darkolivegreen;
+    text-align: center;
+    font-family: cursive;
+    font-size: x-small;
+} */
